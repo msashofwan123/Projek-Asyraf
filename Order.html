@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
+	<!-- Start Head -->
    <head>
       <title>Membuat Formulir Order Checkout Ke Pesan WhatsApp - ePlusGo</title>
       <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
       <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
    </head>
+   <!-- End head -->
 <body>
+	<!-- Kolom Formulir -->
 	<div class="container">
 		<div class="col-lg-6 col-lg-offset-3">
 			<h4>Asyraf Store Checkout System</h4>
@@ -31,11 +34,11 @@
 						<label>Pilih Produk</label>
 						<select name="product" class="form-control" id="product">
 							<option value="">-- Pilih Produk --</option>
-							<option value="produk_1">Madu Asyraf 330g</option>
-							<option value="produk_2">Madu Asyraf 500g</option>
-							<option value="produk_3">Madu Asyraf 1000g</option>
-                            <option value="produk_4">Susu Fallujah Varian Original 500g</option>
-                            <option value="produk_4">Susu Fallujah Varian Strawberry 500g</option>
+							<option value="Madu Asyraf 330g">Madu Asyraf 330g</option>
+							<option value="Madu Asyraf 500g">Madu Asyraf 500g</option>
+							<option value="Madu Asyraf 1000g">Madu Asyraf 1000g</option>
+                            <option value="Susu Fallujah Varian Original 500g">Susu Fallujah Varian Original 500g</option>
+                            <option value="Susu Fallujah Varian Strawberry 500g">Susu Fallujah Varian Strawberry 500g</option>
 						</select>
 					</div>
 					<div class="form-group">
@@ -51,7 +54,9 @@
 			</div>
 		</div>
 	</div>
+	<!-- Akhir Kolom Formulir -->
 
+	<!-- Awal Script Pengiriman -->
 	<script type="text/javascript">
 		$(document).on('click','.send', function(){
 			/* Inputan Formulir */
@@ -64,7 +69,7 @@
 			/* Pengaturan Whatsapp */
 			var walink 		= 'https://api.whatsapp.com/send',
 			    phone 		= '6285380028919',
-			    text 		= 'Assalamualaikum. Admin Asyraf Store, Saya Ingin Memesan ',
+			    text 		= 'Assalamualaikum. Admin Asyraf Store, Saya Ingin Order ',
 			    text_yes	= 'Pesanan Anda berhasil terkirim.',
 			    text_no 	= 'Isilah formulir terlebih dahulu.';
 
