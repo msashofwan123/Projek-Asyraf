@@ -524,35 +524,36 @@ button:focus{
 }
 
 #reviews .carousel-control-prev{
-	background: #d0a772;
-	color: #ffffff;
+	background: none;
+	color: #d0a772;
 	display: block;
 	position: absolute;
-	width: 8%;
+	width: 10%;
 	height: 50px;
 	top: 50%;
 	font-size: 28px;
 	opacity: 1;
 }
 #reviews .carousel-control-prev:hover{
-	background: #010101;
-	color: #ffffff;
+    background: none;
+    backgroud: #010101;
+	color: #010101;
 }
 
 #reviews .carousel-control-next{
-	background: #d0a772;
-	color: #ffffff;
+	background: none;
+	color: #d0a772;
 	display: block;
 	position: absolute;
-	width: 8%;
+	width: 10%;
 	height: 50px;
 	top: 50%;
 	font-size: 28px;
 	opacity: 1;
 }
 #reviews .carousel-control-next:hover{
-	background: #010101;
-	color: #ffffff;
+	background: none;
+	color: #010101;
 }
 
 
