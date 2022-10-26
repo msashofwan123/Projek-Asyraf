@@ -20,39 +20,43 @@
 				<div class="panel-body">
 					<div class="form-group">
 						<label>Nama</label>
-						<input type="text" name="name" class="form-control" placeholder="Nama" id="name">
+						<input type="text" name="name" class="form-control" placeholder="Ahmad Mustaqim" id="name">
 					</div>
 					<div class="form-group">
 						<label>Email</label>
-						<input type="email" name="email" class="form-control" placeholder="Email" id="email">
+						<input type="email" name="email" class="form-control" placeholder="example@email.com" id="email">
 					</div>
 					<div class="form-group">
 						<label>Nomor Kontak / WhatsApp</label>
-						<input type="text" name="phone" class="form-control" placeholder="Nomor Kontak / WhatsApp" id="phone">
+						<input type="text" name="phone" class="form-control" placeholder="082345678943" id="phone">
 					</div>
 					<div class="form-group">
 						<label>Pilih Produk</label>
 						<select name="product" class="form-control" id="product">
 							<option value="">-- Pilih Produk --</option>
-							<option value="Madu Asyraf 330g">Madu Asyraf 330g</option>
-							<option value="Madu Asyraf 500g">Madu Asyraf 500g</option>
-							<option value="Madu Asyraf 1000g">Madu Asyraf 1000g</option>
-                            <option value="Susu Fallujah Varian Original 500g">Susu Fallujah Varian Original 500g</option>
-                            <option value="Susu Fallujah Varian Coklat 500g">Susu Fallujah Varian Coklat 500g</option>
-							<option value="Susu Fallujah Varian Strawberry 500g">Susu Fallujah Varian Strawberry 500g</option>
-							<option value="Susu Fallujah Varian Jahe 500g">Susu Fallujah Varian Jahe 500g</option>
-							<option value="Susu Fallujah Varian Kopi 500g">Susu Fallujah Varian Kopi 500g</option>
-							<option value="Susu Fallujah Varian Madu 500g">Susu Fallujah Varian Madu 500g</option>
-							<option value="Teh Tarik Jelly - Family Teh">Teh Tarik Jelly - Family Teh</option>
+							<option value="Madu Asyraf 330g @Rp.65.000">Madu Asyraf 330g</option>
+							<option value="Madu Asyraf 500g @Rp.80.000">Madu Asyraf 500g</option>
+							<option value="Madu Asyraf 1000g @Rp.140.000">Madu Asyraf 1000g</option>
+                            <option value="Susu Fallujah Varian Original 500g @Rp.55.000">Susu Fallujah Varian Original 500g</option>
+                            <option value="Susu Fallujah Varian Coklat 500g @Rp.55.000">Susu Fallujah Varian Coklat 500g</option>
+							<option value="Susu Fallujah Varian Strawberry 500g @Rp.55.000">Susu Fallujah Varian Strawberry 500g</option>
+							<option value="Susu Fallujah Varian Jahe 500g @Rp.55.000">Susu Fallujah Varian Jahe 500g</option>
+							<option value="Susu Fallujah Varian Kopi 500g @Rp.65.000">Susu Fallujah Varian Kopi 500g</option>
+							<option value="Susu Fallujah Varian Madu 500g @Rp.55.000">Susu Fallujah Varian Madu 500g</option>
+							<option value="Teh Tarik Jelly - Family Teh @Rp.5.000">Teh Tarik Jelly - Family Teh</option>
 						</select>
 					<div class="form-group">
+						<label>Harga</label>
+						<input type="number" name="pay" class="form-control" disabled id="amount"> 
+					</div>
+					<div class="form-group">
 						<label>Jumlah</label>
-						<input type="number" name="amount" class="form-control" placeholder="Jumlah" id="amount">
+						<input type="number" name="amount" class="form-control" placeholder="12" id="amount">
 					</div>
 					</div>
 					<div class="form-group">
 						<label>Catatan</label>
-						<textarea name="description" class="form-control" rows="3" id="description"></textarea>
+						<textarea name="description" class="form-control" placeholder="Tolong Diantar Ke Rumah Ya" rows="3" id="description"></textarea>
 					</div>
 					<div class="form-group">
 						<button class="btn btn-success send">Pesan via WhatsApp</button>
@@ -63,7 +67,7 @@
 			</div>
 		</div>
 	</div>
-
+	<center><input class="btn btn-primary" type="button" value="Order Lagi" onClick="document.location.reload(true)"></center>
 	<center><a href="index.html"><h5>Kembali Ke Beranda</h5></a>  </center>
 	<!-- Akhir Kolom Formulir -->
 
